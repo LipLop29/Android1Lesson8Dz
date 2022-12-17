@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/photo"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_chrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:linksClickable="true"
+        android:backgroundTint="@color/orange"
+        android:text="Chrome" />
+
+    <Button
+        android:id="@+id/btn_whatsApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/orange"
+        android:text="WhatsApp" />
+
+    <EditText
+        android:id="@+id/et_Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number WhatsApp"
+        android:paddingLeft="100dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginHorizontal="30dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_youTube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/orange"
+        android:text="YouTube" />
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/orange"
+        android:text="Camera" />
+
+</LinearLayout>
